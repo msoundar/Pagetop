@@ -27,7 +27,7 @@
 		http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 		
 
-	<context:component-scan base-package="com.walgreens.notificationservice" />
+	<context:component-scan base-package="com.page.pagetop.service" />
 
  <import resource="classpath:META-INF/cxf/cxf.xml" />
  <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
