@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.walgreens.com/NotificationMessage" 
+	xmlns:tns="http://www.walgreens.com/NotificationMessage"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+	jaxb:version="2.0" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" 
+	jaxb:extensionBindingPrefixes="xjc" 	 
+	elementFormDefault="qualified">   
+	
+	<xs:annotation> 
+		<xs:appinfo> 
+			<jaxb:globalBindings> 
+				<xjc:simple /> 
+			</jaxb:globalBindings> 
+		</xs:appinfo> 
+	</xs:annotation>
+	
+  <xs:element name="NotificationMessage" type="tns:NotificationMessage"></xs:element>
+  <xs:complexType name="NotificationMessage">
+    <xs:sequence>
+      <xs:element name="OutBoundChannel" type="xs:string"/>
+      <xs:element name="BccAddress" type="xs:string"/>
+      <xs:element name="CcAddress" type="xs:string"/>
+      <xs:element name="FromAddress" type="xs:string"/>
+      <xs:element name="ReplyToAddress" type="xs:string"/>
+      <xs:element name="Subject" type="xs:string"/>
+      <xs:element name="ToAddress" type="xs:string"/>
+      <xs:element name="MessageBody" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
