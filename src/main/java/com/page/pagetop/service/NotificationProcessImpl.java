@@ -9,7 +9,7 @@ import org.springframework.integration.MessageChannel;
 import org.springframework.integration.message.GenericMessage;
 
 
-@WebService(endpointInterface = "com.walgreens.notificationservice.NotificationProcess")
+@WebService(endpointInterface = "com.page.pagetop.service.notificationservice.NotificationProcess")
 public class NotificationProcessImpl implements ApplicationContextAware{
 
 	 ApplicationContext context = null;

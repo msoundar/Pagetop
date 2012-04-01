@@ -5,5 +5,5 @@
 // Generated on: 2012.02.10 at 02:01:51 PM CST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.walgreens.com/NotificationMessage", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.mypage.com/NotificationMessage", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package com.page.pagetop.service;
